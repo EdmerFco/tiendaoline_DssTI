@@ -1,0 +1,25 @@
+<body class="antialiased">
+        <header>
+        <input type="search" class="buscador" placeholder="Buscar">
+        <div class="img">
+        <img src="{{asset ('static/imagen/logo.png')}}" class="logo"  alt="">
+        </div>
+
+           <x-nav/>
+            <h1 class="contacto">Telefono: 4411516128</h1>
+            <div class="banner">
+            </div>
+            <div class="social-bar">
+                <img href="#" class="icon icon-facebook" target="_blank"src="data:image/png;base64,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" alt="">
+                <img href="#" class="icon icon-whatsapp" target="_blank" src="{{asset ('https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png')}}"></img>
+                <img href="#" class="icon icon-twitter" target="_blank" src="{{asset ('http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png')}}"></img>
+                <img href="#" class="icon icon-youtube" target="_blank" src="{{asset ('https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-5-2.png')}}"></img>
+                <img href="#" class="icon icon-telgram" target="_blank" src="{{asset ('https://1000marcas.net/wp-content/uploads/2019/12/Telegram-logo.png')}}"></img>
+                <img href="#" class="icon icon-instagram" target="_blank" src="{{asset ('http://assets.stickpng.com/images/580b57fcd9996e24bc43c521.png')}}"></img>
+            </div>
+
+
+
+        </header>
+    </body>
+
